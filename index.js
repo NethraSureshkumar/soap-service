@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Serve HTML form
 app.get("/", (req, res) => {
   res.send(`
-    <h2>SOAP Calculator</h2>
+    <h2>Calculator</h2>
     <form method="POST" action="/calculate">
       <input name="a" placeholder="Enter number A" required />
       <select name="operation">
